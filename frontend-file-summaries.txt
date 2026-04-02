@@ -1,0 +1,11 @@
+{
+  "frontend/src/App.tsx": "Main application component that manages both top section (5 input boxes with varying digit lengths: 8, 4, 8, 5, 5) and bottom section (11 input boxes with 5 digits each) state, rendering header, top inputs, centered canvas visualization with increased minimum height (500px) and CLEAR button, bottom input boxes with DISPLAY button, and footer.",
+  "frontend/src/components/Header.tsx": "Header component displaying the app title and icon with a clean, branded design.",
+  "frontend/src/components/Footer.tsx": "Footer component with copyright notice and caffeine.ai attribution link.",
+  "frontend/src/components/DigitInput.tsx": "Input component for entering digit sequences with validation to allow only digits and spaces, plus a clear button.",
+  "frontend/src/components/DigitCanvas.tsx": "Canvas component that renders multiple lines of digits in large centered text with normal black styling, displaying a placeholder message when no digits are present, with canvas height increased to 900px to fully accommodate all 7 lines of digit visualization (5 top section lines + 2 bottom section lines).",
+  "frontend/src/index.css": "Global styles with customized OKLCH color system for light and dark modes, plus JetBrains Mono font import for monospace digit display.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for backend integration to add, retrieve, and list digit sequences (though the app primarily uses frontend-only state).",
+  "frontend/src/components/InputBoxes.tsx": "Component that renders 11 input boxes in two rows (7 in first row, 4 in second row) with a DISPLAY button, handling 5-digit numeric input validation for each box.",
+  "frontend/src/components/TopInputBoxes.tsx": "Component that renders 5 vertically stacked input boxes at the top of the screen with varying digit lengths (8, 4, 8, 5, 5), each centered horizontally with proper spacing and validation."
+}
